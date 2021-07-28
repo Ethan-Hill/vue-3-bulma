@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <button class="button">Magic</button>
+  <h1>{{ x }} {{ y }}</h1>
 </template>
 
-<script>
+<script Setup>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
+import { useMouse } from "@vueuse/core";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
+  setup() {
+    const { x, y } = useMouse();
+
+    return {
+      x,
+      y,
+    };
   },
 };
 </script>
