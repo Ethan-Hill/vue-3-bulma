@@ -1,5 +1,4 @@
 <template>
-  <button class="button">Magic</button>
   <h1>{{ x }} {{ y }}</h1>
 </template>
 

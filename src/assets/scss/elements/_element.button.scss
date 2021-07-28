@@ -1,8 +1,6 @@
-// $--button-padding-horizontal: 200px !default;
+// Bulma Button Styling
 
-// @import '~element-plus/lib/theme-chalk/el-button';
-// @import '../../../../element-variables.scss';
 
-$button-color: $red;
+$button-color: $blue;
 
 @import "~bulma/sass/elements/button.sass";
