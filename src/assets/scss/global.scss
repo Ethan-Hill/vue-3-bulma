@@ -1,11 +1,11 @@
-// CSS RESET
-@import './reset.scss';
-
 // Vendors import
-@import './vendors/_vendors.scss';
-
-// Elements import
-@import './elements/_elements.scss';
+@import './0-vendors/_vendors.scss';
 
 // Tools import
-@import './tools/_tools.scss';
+@import './1-settings/_settings.scss';
+
+// Tools import
+@import './2-tools/_tools.scss';
+
+// Elements import
+@import './3-elements/_elements.scss';

@@ -1,0 +1,9 @@
+// Bulma Button Styling
+
+$button-color: $blue;
+
+.button {
+	&.is-primary {
+		$button-color: $red !important;
+	}
+}

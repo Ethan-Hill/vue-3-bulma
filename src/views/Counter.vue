@@ -10,9 +10,9 @@
 import { ref } from "vue";
 import Counter from "@/components/Counter";
 
-// Defineing the variable state for the count
+// Defining the variable state for the count
 const count = ref(0);
 
-// Defineing the function to increment the counter
+// Defining the function to increment the counter
 const increaseCount = () => count.value++;
 </script>
